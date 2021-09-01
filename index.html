@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <title>Homework Day 18</title>
+
+    <style>
+      .first-container {
+        border: 5px solid rgb(0, 0, 0);
+        border-radius: 5%;
+      }
+      .first-column {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+        background-color: green;
+      }
+      .second-column {
+        display: flex;
+        align-items: flex-end;
+        background-color: blue;
+      }
+      .third-column {
+        flex-direction: column;
+      }
+      .third-column-1 {
+        background-color: yellow;
+      }
+      .third-column-2 {
+        background-color: rgb(255, 255, 79);
+      }
+      .third-column-3 {
+        background-color: rgb(255, 255, 157);
+      }
+      .card-container {
+        display: flex;
+      }
+      .heading{
+        text-align: center;
+      }
+      .heading h2{
+        text-align: center;
+      }
+      .card-header{
+        margin-left: -20px;
+        margin-right: -20px;
+        margin-top: -20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- NavBar -->
+    <!-- Exercise 1 -->
+    <div class="container mb-5">
+      <div class="heading">
+      <h2>Exercise 1</h2>
+      <p>
+        Recreate this table just using Bootstrap or styling, without
+        adding/removing any DOM
+      </p>
+    </div>
+      <div class="row no-gutters">
+        <div class="col-12 d-flex">
+          <div class="col-6 first-column">
+            <p>
+              First Column <br />
+              Height 400px;<br />
+              Green Background<br />
+              Text centered
+            </p>
+          </div>
+          <div class="second-column col-2 no-gutters">
+            <p>Second Column</p>
+          </div>
+          <div class="third-column col-4">
+            <div class="row d-flex w-100 h-100">
+              <div class="third-column-1 col-12 w-100">
+                <p>Third Column Part 1</p>
+              </div>
+              <div class="third-column-2 w-100">
+                <p>Third Column Part 2</p>
+              </div>
+              <div class="third-column-3 w-100">
+                <p>Third Column Part 3</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Exercise 1 -->
+    <!-- Exercise 2 -->
+
+    <div class="container">
+      
+      <div>
+      <div class="row d-flex">
+        <div class="col-12">
+          <h2 style="text-align: center">Exercise 2</h2>
+          <p style="text-align: center">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
+            praesentium repellendus ipsa debitis nemo eligendi. Veniam aliquam
+            ab, illo deleniti ratione, laudantium placeat non porro repudiandae
+            reprehenderit, voluptate magni sequi.
+          </p>
+        </div>
+        <div class="col-12 card-container d-flex justify-content-center">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-header">Free</h5>
+              <p>
+                <span>$0 / mo</span><br />
+                10 users included<br />
+                2GB of Storage<br />
+                Email Support<br />
+                Help center access<br />
+              </p>
+              <a href="#" class="btn btn-primary">Sign up for free</a>
+            </div>
+          </div>
+          <div class="card mr-2 ml-2">
+            <div class="card-body">
+              <h5 class="card-header ">Pro</h5>
+              <p>
+                <span>$15 / mo</span><br />
+                20 users included<br />
+                10GB of Storage<br />
+                Priority Email Support<br />
+                Help center access<br />
+              </p>
+              <a href="#" class="btn btn-primary">Get started</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-header">Enterprise</h5>
+              <p>
+                <span>$15 / mo</span><br />
+                20 users included<br />
+                10GB of Storage<br />
+                Priority Email Support<br />
+                Help center access<br />
+              </p>
+              <a href="#" class="btn btn-primary">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Exercise 2 -->
+    <!-- Exercise 3 -->
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <h2 style="text-align: center">Exercise 3</h2>
+          <p style="text-align: center">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
+            praesentium repellendus ipsa debitis nemo eligendi. Veniam aliquam
+            ab, illo deleniti ratione, laudantium placeat non porro repudiandae
+            reprehenderit, voluptate magni sequi.
+          </p>
+        </div>
+        <div class="col-xl-12 d-flex">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Exercise 3 -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
